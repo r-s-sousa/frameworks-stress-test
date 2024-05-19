@@ -98,7 +98,7 @@ php -S localhost:8000
 php -S localhost:8000 -t public
 ```
 
-More information: [https://www.slimframework.com/](https://www.slimframework.com/)
+More information: [https://github.com/r-s-sousa/php-simple-fly](https://github.com/r-s-sousa/php-simple-fly)
 
 ## stress test with pest
 
