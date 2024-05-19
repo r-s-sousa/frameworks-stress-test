@@ -1,0 +1,8 @@
+GET http://localhost:8000/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "bodyKey1": "bodyKey1",
+  "bodyKey2": "bodyKey2"
+}
