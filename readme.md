@@ -92,7 +92,7 @@ More information: [https://reactphp.org/](https://reactphp.org/)
 php -S localhost:8000
 ```
 
-### My personal router test
+### My personal router start
 
 ```bash
 php -S localhost:8000 -t public
@@ -160,9 +160,9 @@ This README presents the stress test results for various frameworks and technolo
 **DNS Lookup Duration**: 127.0.0.1, ::1 (0.00 ms)  
 **TLS Handshake Duration**: 0.00 ms  
 **Request Duration**: 0.59 ms  
-- **Upload**: 2.5% (0.00 MB/req, 1.38 MB/s, 0.01 ms)  
-- **Time To First Byte (TTFB)**: 88.4% (including server processing time, 0.52 ms)  
-- **Download**: 7.1% (0.00 MB/req, 2.21 MB/s, 0.04 ms)
+-**Upload**: 2.5% (0.00 MB/req, 1.38 MB/s, 0.01 ms)  
+-**Time To First Byte (TTFB)**: 88.4% (including server processing time, 0.52 ms)  
+-**Download**: 7.1% (0.00 MB/req, 2.21 MB/s, 0.04 ms)
 
 ### Hyperf Results
 
@@ -229,15 +229,15 @@ This README presents the stress test results for various frameworks and technolo
 -**TTFB**: 98.1% (including server processing time, 9.75 ms)  
 -**Download**: 1.3% (0.00 MB/req, 0.16 MB/s, 0.13 ms)
 
-### My personal router results
+### My Personal Router Results
 
-**Test Duration**: 15.00 s
-**Test Concurrency**: 10
-**Requests Count**: 2646.63 reqs/s 39709 requests
-**Success Rate**: 100.0 %
-**DNS Lookup Duration**: 127.0.0.1, ::1 0.14 ms
-**TLS Handshake Duration**: 0.00 ms
-**Request Duration**: 3.31 ms
--**Upload**: 0.00 MB/req 0.30 MB/s 0.04 ms
--**TTFB**: 94.9 % (including server processing time, 3.14 ms)
--**Download**: 3.6 %: 0.00 MB/req 0.42 MB/s 0.12 ms
+**Test Duration**: 15.00 s  
+**Test Concurrency**: 10  
+**Requests Count**: 2646.63 reqs/s (39709 requests)  
+**Success Rate**: 100.0%  
+**DNS Lookup Duration**: 127.0.0.1, ::1 (0.14 ms)  
+**TLS Handshake Duration**: 0.00 ms  
+**Request Duration**: 3.31 ms  
+-**Upload**: 0.0% (0.00 MB/req, 0.30 MB/s, 0.04 ms)  
+-**TTFB**: 94.9% (including server processing time, 3.14 ms)  
+-**Download**: 3.6% (0.00 MB/req, 0.42 MB/s, 0.12 ms)  
